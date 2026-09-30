@@ -1,7 +1,7 @@
 # LovExit Terminal Launcher
 
 <p align="center">
-  <img src="Terminal.png" alt="LovExit Terminal Launcher" width="900">
+  <img src="Terminal.png" alt="LovExit Terminal Launcher Preview" width="900">
 </p>
 
 A dark, animated Windows Terminal launcher for **LovExit**.
