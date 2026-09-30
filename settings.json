@@ -1,0 +1,114 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{b3f1c7a2-5d84-4e6b-9a10-7c2e8f4d1a55}",
+    "keybindings": [
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.ToggleFocusMode",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Neon Night",
+            "cursorShape": "bar",
+            "font": {
+                "face": "Cascadia Mono",
+                "size": 12
+            },
+            "padding": "8",
+            "scrollbarState": "hidden"
+        },
+        "list": [
+            {
+                "commandline": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"__LOVEXIT_PATH__\\launcher.ps1\"",
+                "guid": "{b3f1c7a2-5d84-4e6b-9a10-7c2e8f4d1a55}",
+                "hidden": false,
+                "name": "LovExit Launcher",
+                "padding": "0,8,0,8",
+                "suppressApplicationTitle": true,
+                "tabTitle": "LovExit"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#000000",
+            "black": "#141414",
+            "blue": "#6C8CFF",
+            "brightBlack": "#555555",
+            "brightBlue": "#93AAFF",
+            "brightCyan": "#7DF3FF",
+            "brightGreen": "#8CFFB8",
+            "brightPurple": "#DDB3FF",
+            "brightRed": "#FF7A90",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFE699",
+            "cursorColor": "#00E5FF",
+            "cyan": "#00E5FF",
+            "foreground": "#E8E8E8",
+            "green": "#5CFF9D",
+            "name": "Neon Night",
+            "purple": "#C792EA",
+            "red": "#FF5370",
+            "selectionBackground": "#2A2A2A",
+            "white": "#E8E8E8",
+            "yellow": "#FFD866"
+        }
+    ],
+    "theme": "lovexit",
+    "themes": [
+        {
+            "name": "lovexit",
+            "tab": {
+                "background": "terminalBackground",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": "#00000000"
+            },
+            "tabRow": {
+                "background": "terminalBackground",
+                "unfocusedBackground": "#000000FF"
+            },
+            "window": {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        }
+    ]
+}
